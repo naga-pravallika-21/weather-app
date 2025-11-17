@@ -1,0 +1,91 @@
+    body {
+        background-image: url('bg.jpg');
+        z-index: -1;
+        width: 90%;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .weather-widget {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        max-width: 420px;
+        margin: 18px auto;
+        padding: 16px 5px 24px;
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        background: linear-gradient(180deg, #ffffff, #f7f9fc);
+        margin-top: 6%;
+        height: 60%;
+        width: 90%;
+        background: url('search-marketing.jpg') no-repeat center center;
+        background-size: cover;
+         
+    }
+
+    .controls {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .controls input[type="search"] {
+        flex: 1;
+        padding: 10px 12px;
+        border: 1px solid #d3d8df;
+        border-radius: 8px;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .controls button {
+        padding: 10px 12px;
+        border: 1px solid #d3d8df;
+        background: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .status {
+        margin-top: 10px;
+        color: #374151;
+        font-size: 13px;
+    }
+
+    .card {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        margin-top: 12px;
+        padding: 12px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #fff, #fbfdff);
+        border: 1px solid #eef3f8;
+    }
+
+    .icon {
+        font-size: 44px;
+    }
+
+    .meta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temp {
+        font-size: 28px;
+        font-weight: 600;
+        color: #0f172a;
+    }
+
+    .desc {
+        color: #475569;
+        font-size: 14px;
+    }
+
+    .small {
+        color: #64748b;
+        font-size: 13px;
+        margin-top: 6px;
+    }
